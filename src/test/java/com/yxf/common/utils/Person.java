@@ -1,8 +1,9 @@
-package com.shiqiye.common.utils;
+package com.yxf.common.utils;
 
 import java.util.Date;
 
 public class Person {
+
 	private String name;
 	private Integer age;
 	private String about;
@@ -30,16 +31,6 @@ public class Person {
 	}
 	public void setCreated(Date created) {
 		this.created = created;
-	}
-	public Person(String name, Integer age, String about, Date created) {
-		super();
-		this.name = name;
-		this.age = age;
-		this.about = about;
-		this.created = created;
-	}
-	public Person() {
-		super();
 	}
 	@Override
 	public String toString() {
